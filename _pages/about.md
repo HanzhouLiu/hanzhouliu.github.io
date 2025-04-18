@@ -63,7 +63,7 @@ Lately, I’ve been exploring Vision-Language Models (VLMs) and sequence modelin
 # 💬 Invited Talks
 - *2024.07*, **Mamba4Rec**, invited talk at Uber.
 
-# 🧾 Academic Service
+# 🧾 Academic Services
 - *2025*, Reviewer, IEEE Transactions on Image Processing (TIP).
 - *2024*, Reviewer, The Conference on Information and Knowledge Management (CIKM).
 - *2024*, Reviewer, NTIRE: New Trends in Image Restoration and Enhancement workshopin conjunction with CVPR 2025.
