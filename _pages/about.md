@@ -50,11 +50,11 @@ Lately, I’ve been exploring Vision-Language Models (VLMs) and sequence modelin
 - [Behavior-Dependent Linear Recurrent Units for Efficient Sequential Recommendation](https://github.com/chengkai-liu/RecBLR), Chengkai Liu, Jianghao Lin, Hanzhou Liu, Jianling Wang, James Caverlee, **CIKM 2024**
 
 - [Real-world image deblurring via unsupervised domain adaptation](https://link.springer.com/chapter/10.1007/978-3-031-47966-3_12), Hanzhou Liu, Binghan Li, Mi Lu, Yucheng Wu, **ISVC 2023**
-<!--
-# 🎖 Honors and Awards
+
+<!--# 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
--->
+- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
+
 # 📖 Educations
 - *2021.08 - now*, Texas A&M University, PhD in Computer Engineering. 
 - *2019.08 - 2021.06*, Texas A&M University, MS in Computer Engineering. 
@@ -62,7 +62,10 @@ Lately, I’ve been exploring Vision-Language Models (VLMs) and sequence modelin
 
 # 💬 Invited Talks
 - *2024.07*, **Mamba4Rec**, invited talk at Uber.
-<!--
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
--->
+
+# 🧾 Academic Service
+- *2025*, Reviewer, IEEE Transactions on Image Processing (TIP).
+- *2024*, Reviewer, The Conference on Information and Knowledge Management (CIKM).
+- *2024*, Reviewer, NTIRE: New Trends in Image Restoration and Enhancement workshopin conjunction with CVPR 2025.
+<!--# 💻 Internships
+- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.-->
