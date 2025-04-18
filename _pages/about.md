@@ -67,5 +67,6 @@ Lately, I’ve been exploring Vision-Language Models (VLMs) and sequence modelin
 - *2025*, Reviewer, NTIRE: New Trends in Image Restoration and Enhancement workshopin conjunction with CVPR 2025.
 - *2024*, Reviewer,  IEEE/CVF Winter Conference on Applications of Computer Vision (WACV).
 - *2024*, Reviewer, The Conference on Information and Knowledge Management (CIKM).
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+<!--# 💻 Internships
+- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.-->
