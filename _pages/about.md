@@ -29,8 +29,8 @@ Lately, I’ve been exploring Vision-Language Models (VLMs) and sequence modelin
 -->
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.04*: &nbsp;🎉🎉 [XYScanNet](https://arxiv.org/pdf/2412.10338) has been accepted by NTIRE CVPR 2025. See you in Nashville. 
+- *2024.02*: &nbsp;🎉🎉 [Mamba4rec](https://github.com/chengkai-liu/Mamba4Rec) has been selected as the Best Paper Award for KDD'24 Resource-efficient Learning for Knowledge Discovery Workshop (RelKD’24). 
 
 # 📝 Publications 
 
@@ -50,19 +50,19 @@ Lately, I’ve been exploring Vision-Language Models (VLMs) and sequence modelin
 - [Behavior-Dependent Linear Recurrent Units for Efficient Sequential Recommendation](https://github.com/chengkai-liu/RecBLR), Chengkai Liu, Jianghao Lin, Hanzhou Liu, Jianling Wang, James Caverlee, **CIKM 2024**
 
 - [Real-world image deblurring via unsupervised domain adaptation](https://link.springer.com/chapter/10.1007/978-3-031-47966-3_12), Hanzhou Liu, Binghan Li, Mi Lu, Yucheng Wu, **ISVC 2023**
-
+<!--
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
+-->
 # 📖 Educations
 - *2021.08 - now*, Texas A&M University, PhD in Computer Engineering. 
 - *2019.08 - 2021.06*, Texas A&M University, MS in Computer Engineering. 
 - *2014.08 - 2018.06*, Jilin University, BS in Electrical Engineering. 
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
+- *2024.07*, **Mamba4Rec**, invited talk at Uber.
+<!--
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+-->
