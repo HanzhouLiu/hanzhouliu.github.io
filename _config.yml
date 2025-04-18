@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "Hanzhou Liu"
-description              : "Low-level Computer Vision, Image Restoration, 3D/4D Gaussian Splatting, Vision Language Model, Autonomous Driving. "
+description              : "Research in Low-Level Computer Vision, Image Restoration, 3D/4D Gaussian Splatting, Vision-Language Models, and Autonomous Driving."
+ "
 repository               : "HanzhouLiu/hanzhouliu.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Hanzhou Liu"
-  avatar           : "images/HanzhouLiu.jpg"
+  avatar           : "images/HanzhouLiu.JPG"
   bio              : "Texas A&M University"
   location         : "College Station, USA"
   employer         :
