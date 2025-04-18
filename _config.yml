@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Hanzhou Liu"
-  avatar           : "images/HanzhouLiu.JPG"
+  avatar           : "images/HanzhouLiu.jpg"
   bio              : "Texas A&M University"
   location         : "College Station, USA"
   employer         :
