@@ -34,7 +34,7 @@ Lately, I’ve been exploring Vision-Language Models (VLMs) and sequence modelin
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NTIRE CVPR 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NTIRE CVPR 2025</div><img src='images/xyscannet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [XYScanNet: A State Space Model for Single Image Deblurring](https://arxiv.org/pdf/2412.10338)
