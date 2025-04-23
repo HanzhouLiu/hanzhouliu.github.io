@@ -38,7 +38,7 @@ Lately, I’ve been exploring Vision-Language Models (VLMs) and sequence modelin
 <div class='paper-box-text' markdown="1">
 
 [XYScanNet: A State Space Model for Single Image Deblurring](https://arxiv.org/pdf/2412.10338)
-**Hanzhou Liu**, Chengkai Liu, Jiacong Xu, Peng Jiang, Mi Lu
+**Hanzhou Liu**, Chengkai Liu, Jiacong Xu, Peng Jiang, Mi Lu, **NTIRE CVPR 2025**
 
 [**Project**](https://github.com/HanzhouLiu/XYScanNet) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - XYScanNet, maintains competitive distortion metrics and significantly improves perceptual performance. Experimental results show that XYScanNet enhances KID by 17% compared to the nearest competitor. 
@@ -64,7 +64,7 @@ Lately, I’ve been exploring Vision-Language Models (VLMs) and sequence modelin
 - *2024.07*, **Mamba4Rec**, invited talk at Uber.
 
 # 🧾 Community Services
-- *2025*, Reviewer, NTIRE: New Trends in Image Restoration and Enhancement workshopin conjunction with CVPR 2025.
+- *2025*, Reviewer, New Trends in Image Restoration and Enhancement workshopin conjunction with CVPR 2025 (NTIRE).
 - *2024*, Reviewer,  IEEE/CVF Winter Conference on Applications of Computer Vision (WACV).
 - *2024*, Reviewer, The Conference on Information and Knowledge Management (CIKM).
 
