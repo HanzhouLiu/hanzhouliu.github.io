@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Howdy! I’m a Ph.D. student at Texas A&M University, where I focus on algorithm design for Intelligent Transportation Systems (ITS) to tackle real-world challenges in low-level computer vision.
+Howdy! I’m a Ph.D. student at Texas A&M University, specializing in algorithm design for Intelligent Transportation Systems (ITS), with a particular focus on real-world challenges in image and video restoration.
 
-My research emphasizes on restoring high-quality images from degraded or blurred inputs. I leverage state-of-the-art techniques, including Generative Adversarial Networks (GANs), Transformers, and State Space Models (SSMs), to push the boundaries of image restoration.
+My research centers on recovering high-quality content from degraded visual data. I utilize cutting-edge techniques, including Generative Adversarial Networks (GANs), Transformers, and State Space Models (SSMs), to advance the frontiers of image restoration.
 
-In addition to 2D vision, I have hands-on experience with 3D scene segmentation using large-scale multi-modal datasets. My work involves training and deploying deep models on GPU clusters, with a strong focus on scalability and efficiency.
+Beyond 2D vision, I have hands-on experience with video diffusion models such as Wan2.1, working with large-scale multi-modal datasets. My work emphasizes scalable and efficient training and deployment of video restoration models on GPU clusters.
 
-Lately, I’ve been exploring Vision-Language Models (VLMs) and sequence modeling, aiming to develop more holistic and interpretable solutions for both image and video understanding.
+Looking ahead, I’m committed to building more holistic and interpretable solutions for both image and video understanding, bridging the gap between low-level restoration and high-level perception.
 
 <!--My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
