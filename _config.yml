@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Hanzhou Liu"
-description              : "Research in Low-Level Computer Vision, Image Restoration, 3D/4D Gaussian Splatting, Vision-Language Models, and Autonomous Driving."
+description              : "Research in Image/Video Restoration, Video Diffusion Models."
 
 repository               : "HanzhouLiu/hanzhouliu.github.io"
 google_scholar_stats_use_cdn : true
