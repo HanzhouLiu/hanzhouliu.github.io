@@ -29,8 +29,9 @@ Looking ahead, I’m committed to building more holistic and interpretable solut
 -->
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 Our paper [Stylos](https://arxiv.org/pdf/2509.26455) is now available on arXiv.
 - *2025.08*: &nbsp;🎉🎉 I have joined the Urban Resilience Lab as a research assitant with cooperation with [Resilitix AI](https://www.resilitix.ai/) on a LLM-Rag system. 
-- *2025.04*: &nbsp;🎉🎉 [XYScanNet](https://arxiv.org/pdf/2412.10338) has been accepted by NTIRE CVPR 2025. See you in Nashville. 
+- *2025.04*: &nbsp;🎉🎉 [XYScanNet](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Liu_XYScanNet_A_State_Space_Model_for_Single_Image_Deblurring_CVPRW_2025_paper.pdf) has been accepted by NTIRE CVPR 2025. See you in Nashville. 
 - *2024.02*: &nbsp;🎉🎉 [Mamba4rec](https://github.com/chengkai-liu/Mamba4Rec) has been selected as the Best Paper Award for KDD'24 Resource-efficient Learning for Knowledge Discovery Workshop (RelKD’24). 
 
 # 📝 Publications 
