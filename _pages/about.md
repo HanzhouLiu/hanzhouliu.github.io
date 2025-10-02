@@ -34,7 +34,20 @@ Looking ahead, I’m committed to building more holistic and interpretable solut
 - *2025.04*: &nbsp;🎉🎉 [XYScanNet](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Liu_XYScanNet_A_State_Space_Model_for_Single_Image_Deblurring_CVPRW_2025_paper.pdf) has been accepted by NTIRE CVPR 2025. See you in Nashville. 
 - *2024.02*: &nbsp;🎉🎉 [Mamba4rec](https://github.com/chengkai-liu/Mamba4Rec) has been selected as the Best Paper Award for KDD'24 Resource-efficient Learning for Knowledge Discovery Workshop (RelKD’24). 
 
-# 📝 Publications 
+# 📝 Publications and Preprints
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/stylos.png' alt="stylos" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting](https://arxiv.org/abs/2509.26455)  
+**Hanzhou Liu\***, Jia Huang, Mi Lu, Srikanth Saripalli, **Peng Jiang\*** †, *arXiv 2025*  
+
+[**Project**](https://github.com/HanzhouLiu/Stylos) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:Wp0gIr-vW9MC'></span></strong>  
+- Stylos couples **VGGT** with **Gaussian Splatting** for cross-view style transfer, introducing a voxel-based style loss to ensure **multi-view consistency**.  
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NTIRE CVPR 2025</div><img src='images/xyscannet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
