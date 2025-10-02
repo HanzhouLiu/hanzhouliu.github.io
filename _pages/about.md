@@ -17,13 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Howdy! I’m a Ph.D. student at Texas A&M University, specializing in algorithm design for Intelligent Transportation Systems (ITS), with a particular focus on real-world challenges in image and video restoration.
+Howdy! I am a 5th-year Ph.D. student in Computer Engineering at Texas A&M University. My research began with image and video restoration, where I explored high-fidelity recovery using advanced sequence models such as Transformers and Mamba.
 
-My research centers on recovering high-quality content from degraded visual data. I utilize cutting-edge techniques, including Generative Adversarial Networks (GANs), Transformers, and State Space Models (SSMs), to advance the frontiers of image restoration.
+Recently, my focus has shifted toward generative video modeling and multi-modal AI. Current directions include:
 
-Beyond 2D vision, I have hands-on experience with video diffusion models such as Wan2.1, working with large-scale multi-modal datasets. My work emphasizes scalable and efficient training and deployment of video restoration models on GPU clusters.
+(1) 3D Reconstruction & Style Transfer, developing geometry-aware generative models, including Stylos, a VGGT + Gaussian Splatting framework for consistent 3D style transfer.
 
-Looking ahead, I’m committed to building more holistic and interpretable solutions for both image and video understanding, bridging the gap between low-level restoration and high-level perception.
+(2) Video Diffusion, exploring diffusion-based frameworks for high-fidelity video restoration, streaming generation, and temporally consistent 3D-aware video modeling.
+
+(3) LLM-RAG, building retrieval-augmented generation pipelines with large language and vision-language models to enhance reasoning and controllability in generative systems.
+
+I am actively seeking a research internship for Spring 2026 or Summer 2026, where I can contribute expertise in visual generation and restoration while continuing to grow in applied AI research.
 
 <!--My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
