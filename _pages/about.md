@@ -59,7 +59,8 @@ I am actively seeking a research internship for Spring 2026 or Summer 2026, wher
 [XYScanNet: A State Space Model for Single Image Deblurring](https://arxiv.org/pdf/2412.10338)
 **Hanzhou Liu**, Chengkai Liu, Jiacong Xu, Peng Jiang, Mi Lu, **NTIRE CVPR 2025**
 
-[**Project**](https://github.com/HanzhouLiu/XYScanNet) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/HanzhouLiu/XYScanNet) ｜ [**Demo**](https://huggingface.co/spaces/HanzhouLiu/XYScanNet_Demo)
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - XYScanNet, maintains competitive distortion metrics and significantly improves perceptual performance. Experimental results show that XYScanNet enhances KID by 17% compared to the nearest competitor. 
 </div>
 </div>
