@@ -57,6 +57,7 @@ I am actively seeking a research internship for Spring 2026 or Summer 2026, wher
 <div class='paper-box-text' markdown="1">
 
 [XYScanNet: A State Space Model for Single Image Deblurring](https://arxiv.org/pdf/2412.10338)
+
 **Hanzhou Liu**, Chengkai Liu, Jiacong Xu, Peng Jiang, Mi Lu, **NTIRE CVPR 2025**
 
 [**Project**](https://github.com/HanzhouLiu/XYScanNet) ｜ [**Demo**](https://huggingface.co/spaces/HanzhouLiu/XYScanNet_Demo)
