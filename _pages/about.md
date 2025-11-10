@@ -56,8 +56,7 @@ I am actively seeking a research internship for Spring 2026 or Summer 2026, wher
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NTIRE CVPR 2025</div><img src='images/xyscannet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[XYScanNet: A State Space Model for Single Image Deblurring](https://arxiv.org/pdf/2412.10338)
-
+[XYScanNet: A State Space Model for Single Image Deblurring](https://arxiv.org/pdf/2412.10338)  
 **Hanzhou Liu**, Chengkai Liu, Jiacong Xu, Peng Jiang, Mi Lu, **NTIRE CVPR 2025**
 
 [**Project**](https://github.com/HanzhouLiu/XYScanNet) ｜ [**Demo**](https://huggingface.co/spaces/HanzhouLiu/XYScanNet_Demo)
@@ -66,11 +65,14 @@ I am actively seeking a research internship for Spring 2026 or Summer 2026, wher
 </div>
 </div>
 
-- [Mamba4rec: Towards efficient sequential recommendation with selective state space models](https://github.com/chengkai-liu/Mamba4Rec), Chengkai Liu, Jianghao Lin, Jianling Wang, Hanzhou Liu, James Caverlee, **RelKD KDD 2024 Best Paper Award**
+- [Mamba4rec: Towards efficient sequential recommendation with selective state space models](https://github.com/chengkai-liu/Mamba4Rec)  
+Chengkai Liu, Jianghao Lin, Jianling Wang, Hanzhou Liu, James Caverlee, **RelKD KDD 2024 Best Paper Award**
 
-- [Behavior-Dependent Linear Recurrent Units for Efficient Sequential Recommendation](https://github.com/chengkai-liu/RecBLR), Chengkai Liu, Jianghao Lin, Hanzhou Liu, Jianling Wang, James Caverlee, **CIKM 2024**
+- [Behavior-Dependent Linear Recurrent Units for Efficient Sequential Recommendation](https://github.com/chengkai-liu/RecBLR)  
+Chengkai Liu, Jianghao Lin, Hanzhou Liu, Jianling Wang, James Caverlee, **CIKM 2024**
 
-- [Real-world image deblurring via unsupervised domain adaptation](https://link.springer.com/chapter/10.1007/978-3-031-47966-3_12), Hanzhou Liu, Binghan Li, Mi Lu, Yucheng Wu, **ISVC 2023**
+- [Real-world image deblurring via unsupervised domain adaptation](https://link.springer.com/chapter/10.1007/978-3-031-47966-3_12)  
+Hanzhou Liu, Binghan Li, Mi Lu, Yucheng Wu, **ISVC 2023**
 
 <!--# 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
