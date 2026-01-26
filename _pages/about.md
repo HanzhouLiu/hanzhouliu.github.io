@@ -33,6 +33,7 @@ I am actively seeking a research internship for Spring 2026 or Summer 2026, wher
 -->
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉🎉 Our paper [Stylos](https://arxiv.org/pdf/2509.26455) is now accepted by ICLR 2026.
 - *2025.09*: &nbsp;🎉🎉 Our paper [Stylos](https://arxiv.org/pdf/2509.26455) is now available on arXiv.
 - *2025.08*: &nbsp;🎉🎉 I have joined the Urban Resilience Lab as a research assitant with cooperation with [Resilitix AI](https://www.resilitix.ai/) on a LLM-Rag system. 
 - *2025.04*: &nbsp;🎉🎉 [XYScanNet](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Liu_XYScanNet_A_State_Space_Model_for_Single_Image_Deblurring_CVPRW_2025_paper.pdf) has been accepted by NTIRE CVPR 2025. See you in Nashville. 
@@ -44,9 +45,9 @@ I am actively seeking a research internship for Spring 2026 or Summer 2026, wher
 <div class='paper-box-text' markdown="1">
 
 [Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting](https://arxiv.org/abs/2509.26455)  
-**Hanzhou Liu\***, Jia Huang, Mi Lu, Srikanth Saripalli, **Peng Jiang\*** †, *arXiv 2025*  
+**Hanzhou Liu\***, Jia Huang, Mi Lu, Srikanth Saripalli, **Peng Jiang\*** †, *ICLR 2026*  
 
-[**Project**](https://github.com/HanzhouLiu/Stylos) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:Wp0gIr-vW9MC'></span></strong>  
+[**Project**](https://github.com/HanzhouLiu/StylOS) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:Wp0gIr-vW9MC'></span></strong>  
 - Stylos couples **VGGT** with **Gaussian Splatting** for cross-view style transfer, introducing a voxel-based style loss to ensure **multi-view consistency**.  
 
 </div>
