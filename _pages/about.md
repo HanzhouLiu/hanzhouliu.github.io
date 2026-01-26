@@ -41,7 +41,7 @@ I am actively seeking a research internship for Spring 2026 or Summer 2026, wher
 
 # 📝 Publications and Preprints
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/stylos.png' alt="stylos" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/stylos.png' alt="stylos" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting](https://arxiv.org/abs/2509.26455)  
