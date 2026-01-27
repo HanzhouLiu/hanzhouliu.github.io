@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Hanzhou Liu"
-description              : "Research in image and video restoration, diffusion-based video modeling, 3D scene generation and LLM-RAG systems."
+description              : "Research in image/video restoration, 3D/4D scene reconstruction, and video generative models."
 
 repository               : "HanzhouLiu/hanzhouliu.github.io"
 google_scholar_stats_use_cdn : true

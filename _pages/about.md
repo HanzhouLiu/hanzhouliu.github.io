@@ -19,35 +19,28 @@ redirect_from:
 
 Howdy! I am a 5th-year Ph.D. student in Computer Engineering at Texas A&M University. My research began with image and video restoration, where I explored high-fidelity recovery using advanced sequence models such as Transformers and Mamba.
 
-Recently, my focus has shifted toward generative video modeling and multi-modal AI. Current directions include:
+Recently, my focus has shifted toward 3D/4D scene reconstruction, especially the single-forward methods such as VGGT. One of my recent work, [Stylos](https://hanzhouliu.github.io/StylOS/), has been accepted by <strong>ICLR 2026</strong> with top 1.3% pre-rebuttal scores.
 
-(1) 3D Reconstruction & Style Transfer, developing geometry-aware generative models, including Stylos, a VGGT + Gaussian Splatting framework for consistent 3D style transfer.
-
-(2) Video Diffusion, exploring diffusion-based frameworks for high-fidelity video restoration, streaming generation, and temporally consistent 3D-aware video modeling.
-
-(3) LLM-RAG, building retrieval-augmented generation pipelines with large language and vision-language models to enhance reasoning and controllability in generative systems.
-
-I am actively seeking a research internship for Spring 2026 or Summer 2026, where I can contribute expertise in visual generation and restoration while continuing to grow in applied AI research.
+I'm actively seeking a research internship for Summer 2026 and Fall 2026. If you know of any referal or connections, please reach out to me at heyhanzhou@gmail.com.
 
 <!--My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
 
 # 🔥 News
-- *2026.01*: &nbsp;🎉🎉 Our paper [Stylos](https://arxiv.org/pdf/2509.26455) is now accepted by ICLR 2026.
-- *2025.09*: &nbsp;🎉🎉 Our paper [Stylos](https://arxiv.org/pdf/2509.26455) is now available on arXiv.
-- *2025.08*: &nbsp;🎉🎉 I have joined the Urban Resilience Lab as a research assitant with cooperation with [Resilitix AI](https://www.resilitix.ai/) on a LLM-Rag system. 
+- *2026.01*: &nbsp;🎉🎉 Our paper [Stylos](https://hanzhouliu.github.io/StylOS/) is now accepted by ICLR 2026.
+- *2025.08*: &nbsp;🎉🎉 I have joined the Urban Resilience Lab as a research assitant with cooperation with [Resilitix AI](https://www.resilitix.ai/). 
 - *2025.04*: &nbsp;🎉🎉 [XYScanNet](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Liu_XYScanNet_A_State_Space_Model_for_Single_Image_Deblurring_CVPRW_2025_paper.pdf) has been accepted by NTIRE CVPR 2025. See you in Nashville. 
 - *2024.02*: &nbsp;🎉🎉 [Mamba4rec](https://github.com/chengkai-liu/Mamba4Rec) has been selected as the Best Paper Award for KDD'24 Resource-efficient Learning for Knowledge Discovery Workshop (RelKD’24). 
 
-# 📝 Publications and Preprints
+# 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/stylos.png' alt="stylos" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting](https://arxiv.org/abs/2509.26455)  
+[Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting](https://hanzhouliu.github.io/StylOS/)  
 **Hanzhou Liu\***, Jia Huang, Mi Lu, Srikanth Saripalli, **Peng Jiang\*** †, *ICLR 2026*  
 
-[**Project**](https://github.com/HanzhouLiu/StylOS) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:Wp0gIr-vW9MC'></span></strong>  
+[**Project**](https://github.com/HanzhouLiu/StylOS) ｜ [**Demo**](https://huggingface.co/spaces/HanzhouLiu/Stylos_Gradio) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:Wp0gIr-vW9MC'></span></strong>  
 - Stylos couples **VGGT** with **Gaussian Splatting** for cross-view style transfer, introducing a voxel-based style loss to ensure **multi-view consistency**.  
 
 </div>
