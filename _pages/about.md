@@ -21,7 +21,7 @@ Howdy! I am a 5th-year Ph.D. student in Computer Engineering at Texas A&M Univer
 
 Recently, my focus has shifted toward 3D/4D scene reconstruction, especially the single-forward methods such as VGGT. One of my recent work, [Stylos](https://hanzhouliu.github.io/StylOS/), has been accepted by <strong>ICLR 2026</strong> with top 1.3% pre-rebuttal scores.
 
-I'm actively seeking a research internship for Summer 2026 and Fall 2026. If you know of any referal or connections, please reach out to me at heyhanzhou@gmail.com.
+I am actively seeking research internship opportunities for Summer 2026 and Fall 2026. If you are aware of relevant openings or potential referrals, please feel free to contact me at heyhanzhou@gmail.com.
 
 <!--My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
