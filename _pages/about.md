@@ -19,7 +19,7 @@ redirect_from:
 
 Howdy! I am a 5th-year Ph.D. student in Computer Engineering at Texas A&M University. My research began with image and video restoration, where I explored efficient recovery using sequence models such as Transformers and Mamba.
 
-Recently, my focus has shifted toward 3D/4D scene reconstruction, especially the single-forward methods such as VGGT. One of my recent work, [Stylos](https://hanzhouliu.github.io/StylOS/), has been accepted by <strong>ICLR 2026</strong> with top 1.3% pre-rebuttal scores.
+Recently, my focus has taken a foray into 3D/4D scene reconstruction, especially the single-forward methods such as VGGT. One of my recent work, [Stylos](https://hanzhouliu.github.io/StylOS/), has been accepted by <strong>ICLR 2026</strong> with top 1.3% pre-rebuttal scores.
 
 I am actively seeking research internship opportunities for Summer 2026 and Fall 2026. If you are aware of relevant openings or potential referrals, please feel free to contact me at heyhanzhou@gmail.com.
 
