@@ -27,7 +27,7 @@ I am actively seeking research internship opportunities for Summer 2026 and Fall
 -->
 
 # 🔥 News
-- *2026.01*: &nbsp;🎉🎉 Our paper [Stylos](https://hanzhouliu.github.io/StylOS/) is now accepted by ICLR 2026.
+- *2026.01*: &nbsp;🎉🎉 Our paper [Stylos](https://hanzhouliu.github.io/Stylos/) is now accepted by ICLR 2026.
 - *2025.08*: &nbsp;🎉🎉 I have joined the Urban Resilience Lab as a research assitant with cooperation with [Resilitix AI](https://www.resilitix.ai/). 
 - *2025.04*: &nbsp;🎉🎉 [XYScanNet](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Liu_XYScanNet_A_State_Space_Model_for_Single_Image_Deblurring_CVPRW_2025_paper.pdf) has been accepted by NTIRE CVPR 2025. See you in Nashville. 
 - *2024.02*: &nbsp;🎉🎉 [Mamba4rec](https://github.com/chengkai-liu/Mamba4Rec) has been selected as the Best Paper Award for KDD'24 Resource-efficient Learning for Knowledge Discovery Workshop (RelKD’24). 
@@ -37,10 +37,10 @@ I am actively seeking research internship opportunities for Summer 2026 and Fall
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/stylos.png' alt="stylos" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting](https://hanzhouliu.github.io/StylOS/)  
+[Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting](https://arxiv.org/pdf/2509.26455)  
 **Hanzhou Liu\***, Jia Huang, Mi Lu, Srikanth Saripalli, **Peng Jiang\*** †, *ICLR 2026*  
 
-[**Project**](https://github.com/HanzhouLiu/StylOS) ｜ [**Demo**](https://huggingface.co/spaces/HanzhouLiu/Stylos_Gradio) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:Wp0gIr-vW9MC'></span></strong>  
+[**Project**](https://github.com/HanzhouLiu/Stylos) ｜ [**Demo**](https://huggingface.co/spaces/HanzhouLiu/Stylos_Gradio) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:Wp0gIr-vW9MC'></span></strong>  
 - Stylos couples **VGGT** with **Gaussian Splatting** for cross-view style transfer, introducing a voxel-based style loss to ensure **multi-view consistency**.  
 
 </div>
