@@ -82,6 +82,7 @@ Hanzhou Liu, Binghan Li, Mi Lu, Yucheng Wu, **ISVC 2023**
 - *2024.07*, **Mamba4Rec**, invited talk at Uber.
 
 # 🧾 Community Services
+- *2026*, Reviewer, Transactions on Consumer Electronics (TCE).
 - *2025*, Reviewer, New Trends in Image Restoration and Enhancement workshopin conjunction with CVPR 2025 (NTIRE).
 - *2024*, Reviewer,  IEEE/CVF Winter Conference on Applications of Computer Vision (WACV).
 - *2024*, Reviewer, The Conference on Information and Knowledge Management (CIKM).
