@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Howdy! I am a 5th-year Ph.D. student in Computer Engineering at Texas A&M University. 
+Howdy! I am a Ph.D. student in Computer Engineering at Texas A&M University. 
 
 My research began with image restoration before 2025. Then, my focus took a foray into 3D scene reconstruction, especially the single-forward methods such as VGGT. Recently, I am working on image and video understanding with MLLMs.
 
