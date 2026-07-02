@@ -29,7 +29,7 @@ I am actively seeking research internship for 2026 fall, and full-time opportuni
 # 🔥 News
 - *2026.05*: &nbsp;🎉🎉 I am joining [Amazon Store](https://www.aboutamazon.com/what-we-do/amazon-store) as an applied scientist intern working on LLM reasoning. Let us have a coffee chat in Seattle!
 - *2026.01*: &nbsp;🎉🎉 Our paper [Stylos](https://hanzhouliu.github.io/Stylos/) is now accepted by ICLR 2026 (Review Scores 8-8-6-6, <strong>Top 1.3%</strong>).
-- *2025.08*: &nbsp;🎉🎉 I have joined the Urban Resilience Lab as a research assitant supervised by [Ali Mostafavi](https://scholar.google.com/citations?user=DFNvQPYAAAAJ&hl=en). 
+- *2025.08*: &nbsp;🎉🎉 I have joined the Urban Resilience Lab as a research assitant supervised by [Ali Mostafavi](https://scholar.google.com/citations?user=DFNvQPYAAAAJ&hl=en), working on cross-table geospatial reasoning. 
 - *2025.04*: &nbsp;🎉🎉 [XYScanNet](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Liu_XYScanNet_A_State_Space_Model_for_Single_Image_Deblurring_CVPRW_2025_paper.pdf) has been accepted by NTIRE CVPR 2025. See you in Nashville!
 - *2024.02*: &nbsp;🎉🎉 [Mamba4rec](https://github.com/chengkai-liu/Mamba4Rec) has been selected as the Best Paper Award for KDD'24 Resource-efficient Learning for Knowledge Discovery Workshop (RelKD’24). 
 
