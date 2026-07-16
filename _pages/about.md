@@ -19,17 +19,17 @@ redirect_from:
 
 Howdy! I am a 5th-year Ph.D. student in Computer Engineering at Texas A&M University. 
 
-My research began with image restoration. Then, my focus took a foray into 3D scene reconstruction, especially the feed-forward methods. Meanwhile, I also have hands-on experience on LLM/VLM agents and post-training.
+My research began with image restoration. Then, my focus took a foray into feed-forward 3D vision. Meanwhile, I also have hands-on experience on supervised fine-tuning and reinforcement learning.
 
-I am actively seeking research internship for 2026 fall, and full-time opportunities for 2027. If you are aware of relevant openings, please feel free to contact me at heyhanzhou@gmail.com.
+I am actively seeking full-time opportunities for 2027. If you are aware of relevant openings, please feel free to contact me at heyhanzhou@gmail.com.
 
 <!--My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
 
 # 🔥 News
-- *2026.05*: &nbsp;🎉🎉 I am joining [Amazon Store](https://www.aboutamazon.com/what-we-do/amazon-store) as an applied scientist intern working on LLM reasoning. Let us have a coffee chat in Seattle!
-- *2026.01*: &nbsp;🎉🎉 Our paper [Stylos](https://hanzhouliu.github.io/Stylos/) is now accepted by ICLR 2026 (Review Scores 8-8-6-6, <strong>Top 1.3%</strong>).
-- *2025.08*: &nbsp;🎉🎉 I have joined the Urban Resilience Lab as a research assitant supervised by [Ali Mostafavi](https://scholar.google.com/citations?user=DFNvQPYAAAAJ&hl=en), working on cross-table geospatial reasoning. 
+- *2026.05*: &nbsp;🎉🎉 I am joining [Amazon Store](https://www.aboutamazon.com/what-we-do/amazon-store) as an applied scientist intern, supervised by [Rui Song](https://song-ray.github.io/), working on LLM post-training. Let us have a coffee chat in Seattle!
+- *2026.01*: &nbsp;🎉🎉 Our paper [Stylos](https://hanzhouliu.github.io/Stylos/) on feed-forward 3d stylization is now accepted by ICLR 2026 (Review Scores 8-8-6-6, <strong>Top 1.3%</strong>).
+- *2025.08*: &nbsp;🎉🎉 I am joining the Urban Resilience Lab as a research assitant, supervised by [Ali Mostafavi](https://scholar.google.com/citations?user=DFNvQPYAAAAJ&hl=en), working on cross-table geospatial reasoning. 
 - *2025.04*: &nbsp;🎉🎉 [XYScanNet](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Liu_XYScanNet_A_State_Space_Model_for_Single_Image_Deblurring_CVPRW_2025_paper.pdf) has been accepted by NTIRE CVPR 2025. See you in Nashville!
 - *2024.02*: &nbsp;🎉🎉 [Mamba4rec](https://github.com/chengkai-liu/Mamba4Rec) has been selected as the Best Paper Award for KDD'24 Resource-efficient Learning for Knowledge Discovery Workshop (RelKD’24). 
 
