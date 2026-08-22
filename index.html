@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanzhou Liu - Homepage</title>
+    <link rel="stylesheet" type="text/css" href="./index/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/last_name-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/last_name-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-brand">Hanzhou Liu</a>
+        <ul class="nav-links">
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="cv.html">CV</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+
+        <!-- Name Header -->
+        <div class="name">
+            Hanzhou Liu (刘翰洲)
+        </div>
+
+        <!-- Bio Section -->
+        <div class="clearfix">
+            <img src="images/HanzhouLiu.JPG"
+                 style="width:205px; height:256px"
+                 class="portrait"
+                 alt="Hanzhou Liu">
+
+            <div class="bio_format">
+                <p>
+                    Howdy! I am a 5th-year Ph.D. student in Computer Engineering at
+                    <a href="https://www.tamu.edu/" target="_blank">Texas A&M University</a>.
+                </p>
+                <p>
+                    My research began with image restoration. Then, my focus took a foray into feed-forward 3D vision.
+                    Meanwhile, I also have hands-on experience on supervised fine-tuning and reinforcement learning.
+                </p>
+                <p class="seeking">
+                    I am actively seeking full-time opportunities for 2027. If you are aware of relevant openings,
+                    please feel free to contact me at <a href="mailto:heyhanzhou@gmail.com">heyhanzhou@gmail.com</a>.
+                </p>
+
+                <!-- Social Icons -->
+                <div class="social-icons">
+                    <a href="https://scholar.google.com/citations?user=DYha9k0AAAAJ&hl" target="_blank" title="Google Scholar">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hanzhouliu" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:heyhanzhou@gmail.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- News Section -->
+        <span class="category">News</span>
+        <hr class="line">
+        <div class="news-box">
+            <ul class="item_content">
+                <li>
+                    [05/2026] 🎉 I am joining
+                    <a href="https://www.aboutamazon.com/what-we-do/amazon-store" target="_blank">Amazon Store</a>
+                    as an applied scientist intern, supervised by
+                    <a href="https://song-ray.github.io/" target="_blank">Rui Song</a>,
+                    working on LLM post-training. Let us have a coffee chat in Seattle!
+                    <sup class="highlight">New</sup>
+                </li>
+                <li>
+                    [01/2026] 🎉 Our paper
+                    <a href="https://hanzhouliu.github.io/Stylos/" target="_blank">Stylos</a>
+                    on feed-forward 3D stylization is accepted by <b>ICLR 2026</b>
+                    (Scores 8-8-6-6, <strong>Top 1.3%</strong>).
+                </li>
+                <li>
+                    [08/2025] 🎉 I am joining the Urban Resilience Lab as a research assistant,
+                    supervised by
+                    <a href="https://scholar.google.com/citations?user=DFNvQPYAAAAJ&hl=en" target="_blank">Ali Mostafavi</a>,
+                    working on cross-table geospatial reasoning.
+                </li>
+                <li>
+                    [04/2025] 🎉
+                    <a href="https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Liu_XYScanNet_A_State_Space_Model_for_Single_Image_Deblurring_CVPRW_2025_paper.pdf" target="_blank">XYScanNet</a>
+                    has been accepted by <b>NTIRE CVPR 2025</b>. See you in Nashville!
+                </li>
+                <li>
+                    [02/2024] 🎉
+                    <a href="https://github.com/chengkai-liu/Mamba4Rec" target="_blank">Mamba4Rec</a>
+                    has been selected as the <b>Best Paper Award</b> for KDD'24 RelKD Workshop.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Selected Publications -->
+        <span class="category">Selected Publications</span>
+        <hr class="line">
+
+        <!-- Stylos -->
+        <div class="paper-box">
+            <div class="paper-box-image">
+                <div class="badge">ICLR 2026 (8-8-6-6)</div>
+                <img src="images/stylos.png" alt="Stylos">
+            </div>
+            <div class="paper-box-text">
+                <div class="paper-title">
+                    <a href="https://arxiv.org/pdf/2509.26455" target="_blank">
+                        Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting
+                    </a>
+                </div>
+                <div class="paper-authors">
+                    <strong>Hanzhou Liu*</strong>, Jia Huang, Mi Lu, Srikanth Saripalli, <strong>Peng Jiang*</strong> †
+                    &nbsp;|&nbsp; <em>ICLR 2026</em>
+                </div>
+                <div class="paper-links">
+                    <a href="https://github.com/HanzhouLiu/Stylos" target="_blank">[Project]</a>
+                    <a href="https://huggingface.co/spaces/HanzhouLiu/Stylos_Gradio" target="_blank">[Demo]</a>
+                </div>
+                <div class="paper-desc">
+                    Stylos couples <b>VGGT</b> with <b>Gaussian Splatting</b> for cross-view style transfer,
+                    introducing a voxel-based style loss to ensure <b>multi-view consistency</b>.
+                </div>
+            </div>
+        </div>
+
+        <!-- XYScanNet -->
+        <div class="paper-box">
+            <div class="paper-box-image">
+                <div class="badge">NTIRE CVPR 2025</div>
+                <img src="images/xyscannet.png" alt="XYScanNet">
+            </div>
+            <div class="paper-box-text">
+                <div class="paper-title">
+                    <a href="https://arxiv.org/pdf/2412.10338" target="_blank">
+                        XYScanNet: A State Space Model for Single Image Deblurring
+                    </a>
+                </div>
+                <div class="paper-authors">
+                    <strong>Hanzhou Liu</strong>, Chengkai Liu, Jiacong Xu, Peng Jiang, Mi Lu
+                    &nbsp;|&nbsp; <em>NTIRE CVPR 2025</em>
+                </div>
+                <div class="paper-links">
+                    <a href="https://github.com/HanzhouLiu/XYScanNet" target="_blank">[Project]</a>
+                    <a href="https://huggingface.co/spaces/HanzhouLiu/XYScanNet_Demo" target="_blank">[Demo]</a>
+                </div>
+                <div class="paper-desc">
+                    XYScanNet maintains competitive distortion metrics and significantly improves perceptual performance.
+                    Experimental results show that XYScanNet enhances KID by 17% compared to the nearest competitor.
+                </div>
+            </div>
+        </div>
+
+        <!-- Educations -->
+        <span class="category">Educations</span>
+        <hr class="line">
+        <ul class="section-list">
+            <li><strong>2021.08 - now</strong>, Texas A&M University, PhD in Computer Engineering.</li>
+            <li><strong>2019.08 - 2021.06</strong>, Texas A&M University, MS in Computer Engineering.</li>
+            <li><strong>2014.08 - 2018.06</strong>, Jilin University, BS in Electrical Engineering.</li>
+        </ul>
+
+        <!-- Invited Talks -->
+        <span class="category">Invited Talks</span>
+        <hr class="line">
+        <ul class="section-list">
+            <li><strong>2024.07</strong>, <b>Mamba4Rec</b>, invited talk at Uber.</li>
+        </ul>
+
+        <!-- Community Services -->
+        <span class="category">Community Services</span>
+        <hr class="line">
+        <ul class="section-list">
+            <li><strong>2026</strong>, Reviewer, NeurIPS 2026.</li>
+            <li><strong>2026</strong>, Reviewer, Transactions on Consumer Electronics (TCE).</li>
+            <li><strong>2025</strong>, Reviewer, NTIRE Workshop in conjunction with CVPR 2025.</li>
+            <li><strong>2024</strong>, Reviewer, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV).</li>
+            <li><strong>2024</strong>, Reviewer, The Conference on Information and Knowledge Management (CIKM).</li>
+        </ul>
+
+        <!-- Footer -->
+        <div class="footer">
+            &copy; 2026 Hanzhou Liu
+        </div>
+
+    </div>
+</body>
+</html>
