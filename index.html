@@ -35,8 +35,8 @@
 
         <!-- Bio Section -->
         <div class="clearfix">
-            <img src="images/HanzhouLiu.JPG"
-                 style="width:205px; height:256px"
+            <img src="images/HL1.jpg"
+                 id="portrait-rotator"
                  class="portrait"
                  alt="Hanzhou Liu">
 
@@ -213,6 +213,35 @@
             var icon = document.getElementById('theme-icon');
             if (icon) icon.className = 'fa-solid fa-moon';
         }
+    })();
+
+    // Dynamic Portrait Rotator (Libing Zeng style)
+    (function () {
+        const images = [
+            "images/HL1.jpg",
+            "images/HL2.jpg",
+            "images/HL3.jpg",
+            "images/HL4.jpg"
+        ];
+
+        // Preload images for instant switching without lag
+        images.forEach(src => {
+            const preloadImg = new Image();
+            preloadImg.src = src;
+        });
+
+        let idx = 0;
+        const img = document.getElementById("portrait-rotator");
+        if (!img) return;
+
+        setInterval(() => {
+            img.style.opacity = '0';
+            setTimeout(() => {
+                idx = (idx + 1) % images.length;
+                img.src = images[idx];
+                img.style.opacity = '1';
+            }, 350);
+        }, 3500); // changes every 3.5 seconds
     })();
     </script>
 </body>
