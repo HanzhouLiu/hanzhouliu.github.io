@@ -155,7 +155,7 @@ a:hover {
 
 /* --- Social Links (chengkai-liu style) --- */
 .social-links {
-  margin-top: 16px;
+  margin-top: 20px;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -165,23 +165,40 @@ a:hover {
 .social-btn {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  padding: 6px 13px;
+  gap: 6px;
+  padding: 6px 12px;
   border-radius: 6px;
   background-color: #f8f9fa;
-  color: #2c3e50;
-  font-size: 14px;
+  color: #2c3e50 !important;
+  font-size: 0.9rem;
   font-weight: 500;
   text-decoration: none !important;
   transition: all 0.2s ease;
   border: 1px solid #e0e0e0;
+  line-height: 1.4;
+}
+
+.social-btn i {
+  font-size: 14px;
+  color: inherit;
+}
+
+.social-btn span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: inherit;
 }
 
 .social-btn:hover {
   background-color: #527bbd;
   color: #ffffff !important;
   border-color: #527bbd;
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.social-btn:hover i,
+.social-btn:hover span {
+  color: #ffffff !important;
 }
 
 /* --- Section Headers --- */
