@@ -17,7 +17,7 @@ body {
   line-height: 1.6;
   color: #333;
   background: #fff;
-  padding-top: 44px; /* account for compact navbar */
+  padding-top: 48px; /* account for navbar */
   transition: background 0.3s, color 0.3s;
 }
 
@@ -30,53 +30,71 @@ a:hover {
   text-decoration: underline;
 }
 
-/* --- Navigation Bar (compact, xujiacong style) --- */
+/* --- Navigation Bar (clean & compact, xujiacong style) --- */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 44px;
-  background: #222;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid #e8e8e8;
+  z-index: 1000;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.navbar .nav-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+  height: 100%;
   display: flex;
   align-items: center;
-  padding: 0 24px;
-  z-index: 1000;
-  border-bottom: 1px solid #333;
 }
 
 .navbar .nav-items {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 0;
+  gap: 4px;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar .nav-items li a {
-  color: #aaa;
-  font-size: 14px;
+  color: #555;
+  font-size: 15px;
+  font-weight: 600;
   text-decoration: none;
-  padding: 10px 14px;
+  padding: 8px 14px;
   display: inline-block;
-  transition: color 0.2s;
+  border-radius: 4px;
+  transition: color 0.2s, background 0.2s;
 }
 
-.navbar .nav-items li a:hover,
-.navbar .nav-items li a.active {
-  color: #fff;
+.navbar .nav-items li a:hover {
+  color: #111;
   text-decoration: none;
+}
+
+.navbar .nav-items li a.active {
+  color: #111;
+  font-weight: 700;
 }
 
 .navbar .nav-items li.nav-brand a {
   font-size: 16px;
-  font-weight: bold;
-  color: #fff;
+  font-weight: 700;
+  color: #111;
   padding-left: 0;
+  margin-right: 12px;
 }
 
 .navbar .nav-items li.nav-brand a:hover {
-  color: #ddd;
+  color: #333;
 }
 
 .navbar .nav-items li.theme-toggle {
@@ -85,13 +103,13 @@ a:hover {
 
 .navbar .nav-items li.theme-toggle a {
   cursor: pointer;
-  color: #aaa;
-  font-size: 15px;
-  padding: 10px 8px;
+  color: #666;
+  font-size: 16px;
+  padding: 8px 10px;
 }
 
 .navbar .nav-items li.theme-toggle a:hover {
-  color: #fff;
+  color: #111;
 }
 
 /* --- Main Container --- */
@@ -423,17 +441,18 @@ hr.line {
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
-  .navbar {
-    padding: 0 12px;
+  .navbar .nav-inner {
+    padding: 0 15px;
   }
 
   .navbar .nav-items li a {
-    padding: 10px 10px;
-    font-size: 13px;
+    padding: 8px 8px;
+    font-size: 14px;
   }
 
   .navbar .nav-items li.nav-brand a {
-    font-size: 14px;
+    font-size: 15px;
+    margin-right: 4px;
   }
 
   #main {
@@ -474,6 +493,35 @@ hr.line {
 body.dark-mode {
   background: #1a1a2e;
   color: #e0e0e0;
+}
+
+body.dark-mode .navbar {
+  background: rgba(26, 26, 46, 0.92);
+  border-bottom-color: #2e2e4a;
+}
+
+body.dark-mode .navbar .nav-items li a {
+  color: #aaa;
+}
+
+body.dark-mode .navbar .nav-items li a:hover {
+  color: #fff;
+}
+
+body.dark-mode .navbar .nav-items li a.active {
+  color: #fff;
+}
+
+body.dark-mode .navbar .nav-items li.nav-brand a {
+  color: #fff;
+}
+
+body.dark-mode .navbar .nav-items li.theme-toggle a {
+  color: #aaa;
+}
+
+body.dark-mode .navbar .nav-items li.theme-toggle a:hover {
+  color: #fff;
 }
 
 body.dark-mode a {
