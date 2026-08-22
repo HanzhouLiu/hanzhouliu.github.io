@@ -1,0 +1,451 @@
+/* ========================================
+   Hanzhou Liu - Academic Portfolio CSS
+   Combines libingzeng.github.io layout
+   with xujiacong.github.io nav/pub design
+   ======================================== */
+
+/* --- Reset & Base --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+  padding-top: 56px; /* account for fixed navbar */
+}
+
+a {
+  color: #527bbd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.navbar .nav-brand {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.navbar .nav-brand:hover {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+}
+
+.navbar .nav-links li a {
+  color: #ccc;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 4px 0;
+  transition: color 0.2s;
+}
+
+.navbar .nav-links li a:hover,
+.navbar .nav-links li a.active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+}
+
+/* --- Main Container --- */
+#main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 30px 60px;
+}
+
+/* --- Name Header --- */
+.name {
+  height: 64px;
+  font-size: 200%;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+  color: rgb(0, 10, 30);
+  margin-bottom: 10px;
+}
+
+/* --- Portrait & Bio Layout --- */
+.portrait {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.bio_format {
+  overflow: hidden;
+  font-size: 110%;
+  line-height: 28px;
+  padding-top: 5px;
+}
+
+.bio_format p {
+  margin-bottom: 12px;
+}
+
+.bio_format .seeking {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+/* --- Social Icons --- */
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.social-icons a {
+  color: #555;
+  font-size: 22px;
+  transition: color 0.2s;
+}
+
+.social-icons a:hover {
+  color: #527bbd;
+  text-decoration: none;
+}
+
+/* --- Section Headers --- */
+.category {
+  font-size: 180%;
+  font-weight: bold;
+  color: rgb(0, 10, 30);
+  display: block;
+  margin-top: 40px;
+}
+
+hr.line {
+  border: none;
+  height: 2px;
+  width: 100%;
+  margin: 8px 0 20px;
+  background-image: linear-gradient(to right, rgba(15,2,0,0.8), rgba(15,2,0,0.2), rgba(15,2,0,0.1), rgba(15,2,0,0.0));
+}
+
+/* --- News Section --- */
+.news-box {
+  border: solid 2px #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-height: 180px;
+  overflow-y: auto;
+  padding: 10px 15px;
+}
+
+.item_content {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item_content li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+/* --- Paper Boxes (Featured Publications on Index) --- */
+.paper-box {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #fafafa;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.paper-box-image {
+  position: relative;
+  flex-shrink: 0;
+  width: 260px;
+}
+
+.paper-box-image img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.paper-box-image .badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #527bbd;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.paper-box-text {
+  flex: 1;
+}
+
+.paper-box-text .paper-title {
+  font-size: 17px;
+  font-weight: bold;
+  color: #527bbd;
+  margin-bottom: 6px;
+}
+
+.paper-box-text .paper-title a {
+  color: #527bbd;
+}
+
+.paper-box-text .paper-authors {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.paper-box-text .paper-links {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.paper-box-text .paper-links a {
+  margin-right: 8px;
+  color: #527bbd;
+  font-weight: 500;
+}
+
+.paper-box-text .paper-desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* --- Simple list items (Education, Talks, Services) --- */
+.section-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section-list li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 1.6;
+  padding-left: 16px;
+  position: relative;
+}
+
+.section-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #555;
+}
+
+.section-list li strong {
+  color: #333;
+}
+
+/* --- Publications Page (xujiacong style) --- */
+.page-title {
+  font-size: 200%;
+  font-weight: bold;
+  color: rgb(0, 10, 30);
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.page-subtitle {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.publication {
+  margin-bottom: 1.2em;
+  line-height: 1.7;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  color: #333;
+  padding-left: 20px;
+  position: relative;
+}
+
+.publication::before {
+  content: "•";
+  color: #555;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.publication .authors {
+  display: inline;
+}
+
+.publication .title {
+  font-weight: bold;
+  display: inline;
+}
+
+.publication .journal {
+  font-style: italic;
+  display: inline;
+}
+
+.publication .links {
+  display: inline;
+  margin-left: 6px;
+}
+
+.publication .links a {
+  margin: 0 2px;
+  font-size: 14px;
+}
+
+.publication .award {
+  display: inline;
+  color: #b8860b;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* --- CV Page --- */
+.cv-content {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.cv-download-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #527bbd;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s;
+  margin: 20px 0 30px;
+}
+
+.cv-download-btn:hover {
+  background: #3d5f8a;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cv-embed {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cv-embed iframe {
+  border: none;
+  display: block;
+}
+
+.cv-fallback {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #888;
+}
+
+/* --- Footer --- */
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  color: #999;
+  font-size: 14px;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+}
+
+/* --- Clearfix --- */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 15px;
+  }
+
+  .navbar .nav-links {
+    gap: 16px;
+  }
+
+  #main {
+    padding: 20px 15px 40px;
+  }
+
+  .name {
+    font-size: 150%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .portrait {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  .bio_format {
+    margin-left: 0;
+    font-size: 100%;
+  }
+
+  .paper-box {
+    flex-direction: column;
+  }
+
+  .paper-box-image {
+    width: 100%;
+  }
+
+  .category {
+    font-size: 150%;
+  }
+}
