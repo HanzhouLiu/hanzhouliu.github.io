@@ -153,22 +153,34 @@ a:hover {
   font-weight: bold;
 }
 
-/* --- Social Icons --- */
-.social-icons {
-  margin-top: 10px;
+/* --- Social Links (chengkai-liu style) --- */
+.social-links {
+  margin-top: 16px;
   display: flex;
-  gap: 12px;
+  gap: 10px;
+  flex-wrap: wrap;
   align-items: center;
 }
 
-.social-icons a {
-  color: #555;
-  font-size: 22px;
-  transition: color 0.2s;
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 13px;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  border: 1px solid #e0e0e0;
 }
 
-.social-icons a:hover {
-  color: #527bbd;
+.social-btn:hover {
+  background-color: #527bbd;
+  color: #ffffff !important;
+  border-color: #527bbd;
   text-decoration: none;
 }
 
@@ -602,12 +614,16 @@ body.dark-mode .publication .award {
   color: #daa520;
 }
 
-body.dark-mode .social-icons a {
-  color: #aaa;
+body.dark-mode .social-btn {
+  background-color: #16213e;
+  color: #d1d5db;
+  border-color: #2e2e4a;
 }
 
-body.dark-mode .social-icons a:hover {
-  color: #7aa2d4;
+body.dark-mode .social-btn:hover {
+  background-color: #527bbd;
+  color: #ffffff !important;
+  border-color: #527bbd;
 }
 
 body.dark-mode .cv-download-btn {
