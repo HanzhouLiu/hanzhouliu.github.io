@@ -271,6 +271,77 @@ hr.line {
   font-size: 11px;
 }
 
+/* --- Work Experience Section (Libing Zeng style) --- */
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.exp-item {
+  padding-bottom: 4px;
+}
+
+.exp-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 12px;
+  font-size: 16px;
+}
+
+.exp-role {
+  font-weight: bold;
+  color: rgb(0, 10, 30);
+  font-size: 17px;
+}
+
+.exp-org {
+  color: #008B8B;
+  font-weight: 600;
+}
+
+.exp-org em {
+  font-style: normal;
+}
+
+.exp-date {
+  margin-left: auto;
+  color: #777;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.exp-advisor {
+  color: #555;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+
+.exp-desc {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 6px 0 0 0;
+}
+
+.exp-desc li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 6px;
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: #444;
+}
+
+.exp-desc li::before {
+  content: "•";
+  position: absolute;
+  left: 3px;
+  color: #527bbd;
+  font-weight: bold;
+}
+
 /* --- Paper Boxes (Featured Publications on Index) --- */
 .paper-box {
   display: flex;
@@ -606,6 +677,30 @@ body.dark-mode hr.line {
 body.dark-mode .news-box {
   border-color: #444;
   background: #16213e;
+}
+
+body.dark-mode .exp-role {
+  color: #e8e8e8;
+}
+
+body.dark-mode .exp-org {
+  color: #48d1cc;
+}
+
+body.dark-mode .exp-date {
+  color: #aaa;
+}
+
+body.dark-mode .exp-advisor {
+  color: #bbb;
+}
+
+body.dark-mode .exp-desc li {
+  color: #ccc;
+}
+
+body.dark-mode .exp-desc li::before {
+  color: #7aa2d4;
 }
 
 body.dark-mode .paper-box {
