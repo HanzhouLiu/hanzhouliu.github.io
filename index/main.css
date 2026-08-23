@@ -122,9 +122,9 @@ a:hover {
 /* --- Name Header --- */
 .name {
   height: 64px;
-  font-size: 200%;
+  font-size: 230%;
   font-weight: bold;
-  font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+  font-family: "Cavolini", "Caveat", "Segoe Print", "KaiTi", "楷体", cursive, sans-serif;
   color: rgb(0, 10, 30);
   margin-bottom: 10px;
 }
