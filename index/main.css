@@ -157,6 +157,28 @@ a:hover {
   font-weight: bold;
 }
 
+.interests-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 4px 0 12px 0;
+}
+
+.interests-list li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 4px;
+  line-height: 26px;
+}
+
+.interests-list li::before {
+  content: "•";
+  position: absolute;
+  left: 2px;
+  color: #527bbd;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 /* --- Social Links (chengkai-liu style) --- */
 .social-links {
   margin-top: 20px;
@@ -567,6 +589,10 @@ body.dark-mode .name {
 
 body.dark-mode .bio_format .seeking {
   color: #ff6b6b;
+}
+
+body.dark-mode .interests-list li::before {
+  color: #7aa2d4;
 }
 
 body.dark-mode .category {
