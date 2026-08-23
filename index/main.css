@@ -86,15 +86,17 @@ a:hover {
 }
 
 .navbar .nav-items li.nav-brand a {
-  font-size: 16px;
-  font-weight: 700;
-  color: #111;
+  font-size: 15px;
+  font-weight: 600;
+  color: #555;
   padding-left: 0;
-  margin-right: 12px;
+  margin-right: 6px;
 }
 
-.navbar .nav-items li.nav-brand a:hover {
-  color: #333;
+.navbar .nav-items li.nav-brand a:hover,
+.navbar .nav-items li.nav-brand a.active {
+  color: #111;
+  font-weight: 700;
 }
 
 .navbar .nav-items li.theme-toggle {
