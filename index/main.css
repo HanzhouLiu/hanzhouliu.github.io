@@ -394,8 +394,6 @@ hr.line {
 .paper-box-image img {
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
   display: block;
   border-radius: 4px;
 }
