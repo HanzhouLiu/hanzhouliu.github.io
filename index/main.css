@@ -274,11 +274,21 @@ hr.line {
   font-size: 11px;
 }
 
-/* --- Work Experience Section (Libing Zeng style) --- */
+/* --- Work Experience & Education Sections (Libing Zeng style) --- */
 .experience-list {
   display: flex;
   flex-direction: column;
   gap: 28px;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education-list .exp-item {
+  align-items: center;
 }
 
 .exp-item {
