@@ -132,15 +132,35 @@ a:hover {
 }
 
 /* --- Portrait & Bio Layout --- */
-.portrait {
+.portrait-wrap {
   float: left;
   margin-right: 30px;
   margin-bottom: 15px;
+  width: 205px;
+  text-align: center;
+}
+
+.portrait {
   border-radius: 6px;
   width: 205px;
   height: 256px;
   object-fit: cover;
+  display: block;
   transition: opacity 0.35s ease-in-out;
+}
+
+.portrait-motto {
+  font-family: "STKaiti", "KaiTi", "楷体", "Georgia", serif;
+  font-size: 13px;
+  line-height: 1.55;
+  color: #666;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.portrait-motto div {
+  white-space: nowrap;
 }
 
 .bio_format {
@@ -228,27 +248,6 @@ a:hover {
 .social-btn:hover i,
 .social-btn:hover span {
   color: #ffffff !important;
-}
-
-/* --- Bio Motto --- */
-.bio-motto {
-  margin: 14px 0 16px 0;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.bio-motto i {
-  font-size: 11px;
-  color: #527bbd;
-  opacity: 0.7;
-}
-
-.bio-motto span {
-  font-family: "STKaiti", "KaiTi", "楷体", "Caveat", "Georgia", serif;
-  font-size: 1.08rem;
-  color: #555;
-  letter-spacing: 0.5px;
 }
 
 /* --- Section Headers --- */
@@ -706,7 +705,7 @@ hr.line {
     margin-bottom: 15px;
   }
 
-  .portrait {
+  .portrait-wrap {
     float: none;
     display: block;
     margin: 0 auto 20px;
@@ -781,12 +780,8 @@ body.dark-mode .bio_format .seeking {
   color: #ff6b6b;
 }
 
-body.dark-mode .bio-motto span {
-  color: #bbb;
-}
-
-body.dark-mode .bio-motto i {
-  color: #7aa2d4;
+body.dark-mode .portrait-motto {
+  color: #aaa;
 }
 
 body.dark-mode .interests-list li::before {
