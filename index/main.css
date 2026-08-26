@@ -376,6 +376,7 @@ hr.line {
 
 /* --- Paper Boxes (Featured Publications on Index) --- */
 .paper-box {
+  position: relative;
   display: flex;
   gap: 24px;
   margin-bottom: 30px;
@@ -383,14 +384,17 @@ hr.line {
   background: #fafafa;
   border-radius: 6px;
   border: 1px solid #eee;
+  transition: border-color 0.2s ease;
+}
+
+.paper-box:hover {
+  z-index: 20;
 }
 
 .paper-box-image {
   position: relative;
   flex-shrink: 0;
   width: 260px;
-  overflow: hidden;
-  border-radius: 4px;
 }
 
 .paper-box-image img {
@@ -398,11 +402,22 @@ hr.line {
   height: auto;
   display: block;
   border-radius: 4px;
-  transition: transform 0.35s ease, filter 0.35s ease;
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  transform-origin: center center;
+  position: relative;
+  z-index: 1;
+}
+
+.paper-box-image:hover {
+  z-index: 50;
 }
 
 .paper-box-image:hover img {
-  transform: scale(1.06);
+  transform: scale(2);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  border-radius: 6px;
+  z-index: 100;
+  cursor: zoom-in;
 }
 
 /* --- Badges (chengkai-liu style) --- */
@@ -438,6 +453,11 @@ hr.line {
   backdrop-filter: blur(4px);
   z-index: 2;
   pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.paper-box-image:hover .badge {
+  opacity: 0;
 }
 
 .paper-box-text {
@@ -674,6 +694,10 @@ hr.line {
     width: 100%;
   }
 
+  .paper-box-image:hover img {
+    transform: scale(1.15);
+  }
+
   .category {
     font-size: 150%;
   }
@@ -776,6 +800,10 @@ body.dark-mode .badge-blue {
 body.dark-mode .paper-box {
   background: #16213e;
   border-color: #2a2a4a;
+}
+
+body.dark-mode .paper-box-image:hover img {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(255, 255, 255, 0.15);
 }
 
 body.dark-mode .paper-box-text .paper-title a {
